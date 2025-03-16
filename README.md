@@ -9,8 +9,8 @@ python InstantSwap.py \
     --model_id $MODLE \
     --source_mask $SOURCE_MASK \
     --source_image $SOURCE_IMAGE \
-    --source_prompt "a person holding a shell in front of the ocean" \
-    --target_prompt "a person holding a sks flower in front of the ocean" \
+    --source_prompt "a person holding a candy" \
+    --target_prompt "a person holding a sks flower" \
     --diff_prompt "sks flower" \
     --diff_prompt_source "shell" \
     --guidance_scale 7.5 \

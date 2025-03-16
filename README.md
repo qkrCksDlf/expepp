@@ -1,7 +1,7 @@
 # expepp
 
 ```export CUDA_VISIBLE_DEVICES="0"
-export MODLE="sd-dreambooth-library/sks-rv"
+export MODLE="sd-dreambooth-library/the-witcher-game-ciri"
 export SOURCE_MASK="./example/bbox.jpg"
 export SOURCE_IMAGE="./example/example_image.jpg"
 export OUTPUT_DIR="./example/flower"
@@ -10,9 +10,9 @@ python InstantSwap.py \
     --source_mask $SOURCE_MASK \
     --source_image $SOURCE_IMAGE \
     --source_prompt " " \
-    --target_prompt "sks rv" \
-    --diff_prompt "sks rv" \
-    --diff_prompt_source "car" \
+    --target_prompt "a sks woman with white hair" \
+    --diff_prompt "a sks woman with white hair" \
+    --diff_prompt_source "a girls head" \
     --guidance_scale 7.5 \
     --output $OUTPUT_DIR \
     --interval 5 \
@@ -26,7 +26,7 @@ export OUTPUT_DIR="./example"
 python get_bbox.py \
     --model_id $MODLE \
     --source_image $SOURCE_IMAGE \
-    --source_prompt "The car is driving on the road." \
+    --source_prompt "a girls head" \
     --guidance_scale 3 \
     --word_idx 5 \
     --output $OUTPUT_DIR \

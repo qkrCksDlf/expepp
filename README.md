@@ -10,7 +10,7 @@ python InstantSwap.py \
     --source_mask $SOURCE_MASK \
     --source_image $SOURCE_IMAGE \
     --source_prompt " " \
-    --target_prompt "sks flower" \
+    --target_prompt "sks rv" \
     --diff_prompt "sks flower" \
     --diff_prompt_source "shell" \
     --guidance_scale 7.5 \

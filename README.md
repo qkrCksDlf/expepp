@@ -10,8 +10,8 @@ python InstantSwap.py \
     --source_mask $SOURCE_MASK \
     --source_image $SOURCE_IMAGE \
     --source_prompt " " \
-    --target_prompt "a sks woman with white hair" \
-    --diff_prompt "a sks woman with white hair" \
+    --target_prompt "a sks woman with white hair head" \
+    --diff_prompt "a sks woman with white hair head" \
     --diff_prompt_source "a girls head" \
     --guidance_scale 7.5 \
     --output $OUTPUT_DIR \
@@ -26,7 +26,7 @@ export OUTPUT_DIR="./example"
 python get_bbox.py \
     --model_id $MODLE \
     --source_image $SOURCE_IMAGE \
-    --source_prompt "a girls head" \
+    --source_prompt "human head" \
     --guidance_scale 3 \
     --word_idx 5 \
     --output $OUTPUT_DIR \

@@ -17,7 +17,7 @@ python InstantSwap.py \
     --output $OUTPUT_DIR \
     --interval 5 \
     --iters 550
-
+```
 
 
 ```export MODLE="stabilityai/stable-diffusion-2-1-base"

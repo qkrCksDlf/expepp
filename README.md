@@ -11,8 +11,8 @@ python InstantSwap.py \
     --source_image $SOURCE_IMAGE \
     --source_prompt " " \
     --target_prompt "sks rv" \
-    --diff_prompt "sks flower" \
-    --diff_prompt_source "shell" \
+    --diff_prompt "sks rv" \
+    --diff_prompt_source "car" \
     --guidance_scale 7.5 \
     --output $OUTPUT_DIR \
     --interval 5 \

@@ -12,7 +12,7 @@ python InstantSwap.py \
     --source_prompt " " \
     --target_prompt "a sks toy" \
     --diff_prompt "a sks toy" \
-    --diff_prompt_source "sks toy" \
+    --diff_prompt_source "nothing" \
     --guidance_scale 7.5 \
     --output $OUTPUT_DIR \
     --interval 5 \

@@ -1,7 +1,7 @@
 # expepp
 
 ```export CUDA_VISIBLE_DEVICES="0"
-export MODLE="zcaoyao/Flower_Concept "
+export MODLE="sd-dreambooth-library/sks-rv"
 export SOURCE_MASK="./example/bbox.jpg"
 export SOURCE_IMAGE="./example/example_image.jpg"
 export OUTPUT_DIR="./example/flower"
@@ -26,7 +26,7 @@ export OUTPUT_DIR="./example"
 python get_bbox.py \
     --model_id $MODLE \
     --source_image $SOURCE_IMAGE \
-    --source_prompt "a person holding a heart shape candy" \
+    --source_prompt "The car is driving on the road." \
     --guidance_scale 3 \
     --word_idx 5 \
     --output $OUTPUT_DIR \

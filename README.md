@@ -10,10 +10,10 @@ python InstantSwap.py \
     --model_id $MODLE \
     --source_mask $SOURCE_MASK \
     --source_image $SOURCE_IMAGE \
-    --source_prompt "candy" \
+    --source_prompt "a heart candy" \
     --target_prompt "a sks flower" \
     --diff_prompt "a sks flower" \
-    --diff_prompt_source "candy" \
+    --diff_prompt_source "heart candy" \
     --guidance_scale 7.5 \
     --output $OUTPUT_DIR \
     --interval 5 \
@@ -28,7 +28,7 @@ export OUTPUT_DIR="./example"
 python get_bbox.py \
     --model_id $MODLE \
     --source_image $SOURCE_IMAGE \
-    --source_prompt "candy" \
+    --source_prompt "a heart candy" \
     --guidance_scale 3 \
     --word_idx 5 \
     --output $OUTPUT_DIR \

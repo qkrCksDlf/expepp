@@ -1,7 +1,8 @@
 # expepp
 
-```export CUDA_VISIBLE_DEVICES="0"
-export MODLE="sd-dreambooth-library/cat-toy"
+```
+export CUDA_VISIBLE_DEVICES="0"
+export MODLE="zcaoyao/Flower_Concept"
 export SOURCE_MASK="./example/bbox.jpg"
 export SOURCE_IMAGE="./example/example_image.jpg"
 export OUTPUT_DIR="./example/flower"

@@ -20,7 +20,8 @@ python InstantSwap.py \
 ```
 
 
-```export MODLE="stabilityai/stable-diffusion-2-1-base"
+```
+export MODLE="stabilityai/stable-diffusion-2-1-base"
 export SOURCE_IMAGE="./example_image.jpg"
 export OUTPUT_DIR="./example"
 python get_bbox.py \

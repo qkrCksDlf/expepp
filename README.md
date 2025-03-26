@@ -2,7 +2,7 @@
 
 ```
 export CUDA_VISIBLE_DEVICES="0"
-export MODLE="Carmen000/dreambooth_candle"
+export MODLE="Carmen000/dreambooth_obeject_candle"
 export SOURCE_MASK="./example/bbox.jpg"
 export SOURCE_IMAGE="./example/example_image.jpg"
 export OUTPUT_DIR="./example/flower"

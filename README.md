@@ -22,13 +22,13 @@ python InstantSwap.py \
 
 
 ```
-export MODLE="stabilityai/stable-diffusion-2-1-base"
+export MODLE="Carmen000/dreambooth_candle"
 export SOURCE_IMAGE="./example_image.jpg"
 export OUTPUT_DIR="./example"
 python get_bbox.py \
     --model_id $MODLE \
     --source_image $SOURCE_IMAGE \
-    --source_prompt "candle" \
+    --source_prompt "sks candle" \
     --guidance_scale 3 \
     --word_idx 5 \
     --output $OUTPUT_DIR \

@@ -13,7 +13,7 @@ python InstantSwap.py \
     --source_prompt "candle" \
     --target_prompt "sks mr potato head" \
     --diff_prompt "sks mr potato head" \
-    --diff_prompt_source "sks mr potato head" \
+    --diff_prompt_source "candle" \
     --guidance_scale 7.5 \
     --output $OUTPUT_DIR \
     --interval 5 \

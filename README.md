@@ -28,7 +28,7 @@ export OUTPUT_DIR="./example"
 python get_bbox.py \
     --model_id $MODLE \
     --source_image $SOURCE_IMAGE \
-    --source_prompt "a red ball" \
+    --source_prompt "balls" \
     --guidance_scale 3 \
     --word_idx 5 \
     --output $OUTPUT_DIR \

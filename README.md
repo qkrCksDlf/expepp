@@ -11,9 +11,9 @@ python InstantSwap.py \
     --source_mask $SOURCE_MASK \
     --source_image $SOURCE_IMAGE \
     --source_prompt "candle" \
-    --target_prompt "a sks candle" \
-    --diff_prompt "a sks candle" \
-    --diff_prompt_source "a sks candle" \
+    --target_prompt "sks mr potato head" \
+    --diff_prompt "sks mr potato head" \
+    --diff_prompt_source "sks mr potato head" \
     --guidance_scale 7.5 \
     --output $OUTPUT_DIR \
     --interval 5 \

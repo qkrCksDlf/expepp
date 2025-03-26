@@ -2,7 +2,7 @@
 
 ```
 export CUDA_VISIBLE_DEVICES="0"
-export MODLE="Carmen000/dreambooth_lora_live_ducktoy"
+export MODLE="JiaxiJiang/dreambooth_duck"
 export SOURCE_MASK="./example/bbox.jpg"
 export SOURCE_IMAGE="./example/example_image.jpg"
 export OUTPUT_DIR="./example/flower"

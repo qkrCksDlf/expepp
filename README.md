@@ -10,10 +10,10 @@ python InstantSwap.py \
     --model_id $MODLE \
     --source_mask $SOURCE_MASK \
     --source_image $SOURCE_IMAGE \
-    --source_prompt "ball" \
-    --target_prompt "sks candle" \
+    --source_prompt "a kitten playing pool with balls" \
+    --target_prompt "a kitten playing pool with sks candle" \
     --diff_prompt "sks candle" \
-    --diff_prompt_source "ball" \
+    --diff_prompt_source "balls" \
     --guidance_scale 7.5 \
     --output $OUTPUT_DIR \
     --interval 5 \

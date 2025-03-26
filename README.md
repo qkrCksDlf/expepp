@@ -2,7 +2,7 @@
 
 ```
 export CUDA_VISIBLE_DEVICES="0"
-export MODLE="Carmen000/dreambooth_candle"
+export MODLE="Carmen000/dreambooth_lora_live_ducktoy"
 export SOURCE_MASK="./example/bbox.jpg"
 export SOURCE_IMAGE="./example/example_image.jpg"
 export OUTPUT_DIR="./example/flower"
@@ -10,10 +10,10 @@ python InstantSwap.py \
     --model_id $MODLE \
     --source_mask $SOURCE_MASK \
     --source_image $SOURCE_IMAGE \
-    --source_prompt "a kitten playing pool with balls" \
-    --target_prompt "a kitten playing pool with sks candle" \
-    --diff_prompt "sks candle" \
-    --diff_prompt_source "balls" \
+    --source_prompt "a red ball" \
+    --target_prompt "a sks duck toy" \
+    --diff_prompt "sks duck toy" \
+    --diff_prompt_source "red ball" \
     --guidance_scale 7.5 \
     --output $OUTPUT_DIR \
     --interval 5 \

@@ -2,7 +2,7 @@
 
 ```
 export CUDA_VISIBLE_DEVICES="0"
-export MODLE="../examples/dreambooth/ori"
+export MODLE="../dreambooth/ori"
 export SOURCE_MASK="./example/bbox.jpg"
 export SOURCE_IMAGE="./example/example_image.jpg"
 export OUTPUT_DIR="./example/flower"

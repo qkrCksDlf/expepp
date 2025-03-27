@@ -2,7 +2,7 @@
 
 ```
 export CUDA_VISIBLE_DEVICES="0"
-export MODLE="JiaxiJiang/dreambooth_duck"
+export MODLE="~/chanil/diffusers/examples/dreambooth/ori"
 export SOURCE_MASK="./example/bbox.jpg"
 export SOURCE_IMAGE="./example/example_image.jpg"
 export OUTPUT_DIR="./example/flower"
@@ -11,8 +11,8 @@ python InstantSwap.py \
     --source_mask $SOURCE_MASK \
     --source_image $SOURCE_IMAGE \
     --source_prompt "bugs" \
-    --target_prompt "sks duck toy" \
-    --diff_prompt "sks duck toy" \
+    --target_prompt "a photo of sks dog" \
+    --diff_prompt "a photo of sks dog" \
     --diff_prompt_source "bugs" \
     --guidance_scale 7.5 \
     --output $OUTPUT_DIR \
